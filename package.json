@@ -1,0 +1,46 @@
+{
+  "homepage": "https://pikacai.github.io",
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview",
+    "tailwind": "npx tailwindcss -i ./src/index.css -o ./src/output.css --watch"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.13",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.3.28",
+    "lottie-web": "^5.12.2",
+    "lucide-react": "^0.428.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0",
+    "sass": "^1.60.0",
+    "smoothscroll-polyfill": "^0.4.4",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.4.1",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/smoothscroll-polyfill": "^0.3.3",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^5.0.0",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}
